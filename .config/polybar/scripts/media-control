@@ -1,0 +1,15 @@
+#!/bin/bash
+
+playing=""
+pause=""
+artist=`playerctl metadata --format '{{ artist }}'`
+
+if [[ $(playerctl status 2>&1) == "Playing" ]]
+then
+    echo "$playing $artist"
+elif [[ $(playerctl status 2>&1) == "Paused" ]]
+then 
+    echo "$pause"
+else
+    echo ""
+fi

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=compositor
+Comment=picom compositor
+Icon=picom
+Exec=picom -b --config ~/.config/picom/picom.conf --experimental-backends
+RunHook=0
+StartupNotify=false
+Terminal=false
+Hidden=false
+

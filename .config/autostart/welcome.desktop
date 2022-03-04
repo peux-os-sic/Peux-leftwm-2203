@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Peux Welcome App
+Comment=short guide on TWMs
+Icon=electron
+Exec=welcomeapp
+RunHook=0
+StartupNotify=false
+Terminal=false
+Hidden=false

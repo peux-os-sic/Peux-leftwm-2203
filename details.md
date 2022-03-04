@@ -1,0 +1,1 @@
+This will copy the Peux OS LeftWM 22.03 configurations to your system's "/tmp/Peux-leftwm-2203" directory. You may then copy the respective configuration from this directory over to your Home directory.  The repository can be found at https://github.com/peux-os-sic/Peux-leftwm-2203.

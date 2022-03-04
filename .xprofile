@@ -1,0 +1,2 @@
+export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:$HOME/.local/share/flatpak/exports/share:/var/lib/snapd/desktop:/usr/local/share:/usr/share"
+#export QT_QPA_PLATFORMTHEME=qt5ct
