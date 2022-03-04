@@ -17,6 +17,7 @@ then
     rm -rf $HOME/tmp/Peux-leftwm-2203/install.sh
     rm -rf $HOME/tmp/Peux-leftwm-2203/.git
     rm -rf $HOME/tmp/Peux-leftwm-2203/details.md
+    rm -rf $HOME/tmp/Peux-leftwm-2203/*.png
     notify-send "Copied the configurations to $HOME/tmp/"
 else
     notify-send "skipping the setup!"
